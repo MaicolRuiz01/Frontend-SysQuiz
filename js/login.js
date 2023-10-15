@@ -192,7 +192,7 @@ function cargarModuloRol() {
       admin = true
 
     } else if (roles[i].nombre == "ROLE_TEACHER" && admin === false) {
-      window.location.href = "./docente/index.html";
+      window.location.href = "./estudiante/index.html";
     }
 
 
